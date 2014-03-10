@@ -2,10 +2,8 @@ Abstract
 --------
 
 This is a collection of subclasses for UISlider, used to select a value from a continuous range of values. It makes use of blocks to respond to UIControlEvents.
- 
-At a Glance
------------
-Contained are several subclasses of UISlider
+
+Contains several subclasses of UISlider
 
 - JOESlider - this is used as a basic slider and a base for more customized implementations
 - JOEStopSlider - uses stops to mark option values the thumb control should "snap" to on touchUp
