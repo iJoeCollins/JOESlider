@@ -7,9 +7,10 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "JOESlider.h"
 
 @interface JOESliderTests : XCTestCase
-
+@property (strong, nonatomic) JOESlider *slider;
 @end
 
 @implementation JOESliderTests
@@ -17,18 +18,17 @@
 - (void)setUp
 {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    self.slider = [[JOESlider alloc] initWithFrame:CGRectZero];
 }
 
-- (void)tearDown
+- (void)testConfigureTargetActionsForEvents
 {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
-
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    NSArray *valueChangedActions = [self.slider actionsForTarget:self.slider forControlEvent:UIControlEventValueChanged];
+    XCTAssert([valueChangedActions count], @"No target actions were configured for UIControlEventChanged");
+    
+    NSArray *touchUpInsideActions = [self.slider actionsForTarget:self.slider forControlEvent:UIControlEventTouchUpInside];
+    XCTAssert([touchUpInsideActions count], @"No target actions were configured for UIControlEventChanged");
 }
 
 @end

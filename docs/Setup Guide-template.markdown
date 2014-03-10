@@ -11,4 +11,4 @@ Then in your .pch file:
 
 > ```#import "JOESlider.h"```
 
-Or just import individual header files where needed.
+Or just import the header files where needed.

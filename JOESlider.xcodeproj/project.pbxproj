@@ -24,18 +24,18 @@
 		D8D62A4D18CE06C900FD3D7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D62A4C18CE06C900FD3D7B /* Foundation.framework */; };
 		D8D62A4F18CE06C900FD3D7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D62A4E18CE06C900FD3D7B /* CoreGraphics.framework */; };
 		D8D62A5118CE06C900FD3D7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D62A5018CE06C900FD3D7B /* UIKit.framework */; };
-		D8D62A5718CE06C900FD3D7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8D62A5518CE06C900FD3D7B /* InfoPlist.strings */; };
-		D8D62A5918CE06C900FD3D7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D62A5818CE06C900FD3D7B /* main.m */; };
-		D8D62A5D18CE06C900FD3D7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D62A5C18CE06C900FD3D7B /* AppDelegate.m */; };
-		D8D62A6018CE06C900FD3D7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D62A5E18CE06C900FD3D7B /* Main.storyboard */; };
-		D8D62A6318CE06C900FD3D7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D62A6218CE06C900FD3D7B /* ViewController.m */; };
-		D8D62A6518CE06C900FD3D7B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D8D62A6418CE06C900FD3D7B /* .gitignore */; };
-		D8D62A6718CE06C900FD3D7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D62A6618CE06C900FD3D7B /* Images.xcassets */; };
 		D8D62A6E18CE06C900FD3D7B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D62A6D18CE06C900FD3D7B /* XCTest.framework */; };
 		D8D62A6F18CE06C900FD3D7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D62A4C18CE06C900FD3D7B /* Foundation.framework */; };
 		D8D62A7018CE06C900FD3D7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D62A5018CE06C900FD3D7B /* UIKit.framework */; };
 		D8D62A7818CE06C900FD3D7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8D62A7618CE06C900FD3D7B /* InfoPlist.strings */; };
 		D8D62A7A18CE06C900FD3D7B /* JOESliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D62A7918CE06C900FD3D7B /* JOESliderTests.m */; };
+		D8D62A9D18CE079600FD3D7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D62A9718CE079600FD3D7B /* AppDelegate.m */; };
+		D8D62A9F18CE079600FD3D7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D62A9A18CE079600FD3D7B /* main.m */; };
+		D8D62AA018CE079600FD3D7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D62A9C18CE079600FD3D7B /* ViewController.m */; };
+		D8D62AA718CE081A00FD3D7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8D62AA618CE081A00FD3D7B /* Images.xcassets */; };
+		D8D62AAA18CE082800FD3D7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8D62AA818CE082800FD3D7B /* InfoPlist.strings */; };
+		D8D62AFF18CE1EEC00FD3D7B /* JOESlider.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D62AFE18CE1EEC00FD3D7B /* JOESlider.m */; };
+		D8D62B0618CE20B200FD3D7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D62AAB18CE083200FD3D7B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,27 +53,28 @@
 		D8D62A4C18CE06C900FD3D7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8D62A4E18CE06C900FD3D7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D8D62A5018CE06C900FD3D7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D8D62A5418CE06C900FD3D7B /* JOESlider-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JOESlider-Info.plist"; sourceTree = "<group>"; };
-		D8D62A5618CE06C900FD3D7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D8D62A5818CE06C900FD3D7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D8D62A5A18CE06C900FD3D7B /* JOESlider-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JOESlider-Prefix.pch"; sourceTree = "<group>"; };
-		D8D62A5B18CE06C900FD3D7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D8D62A5C18CE06C900FD3D7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D8D62A5F18CE06C900FD3D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D8D62A6118CE06C900FD3D7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D8D62A6218CE06C900FD3D7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D8D62A6418CE06C900FD3D7B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		D8D62A6618CE06C900FD3D7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D8D62A6C18CE06C900FD3D7B /* JOESliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JOESliderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D62A6D18CE06C900FD3D7B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D8D62A7518CE06C900FD3D7B /* JOESliderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JOESliderTests-Info.plist"; sourceTree = "<group>"; };
 		D8D62A7718CE06C900FD3D7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8D62A7918CE06C900FD3D7B /* JOESliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JOESliderTests.m; sourceTree = "<group>"; };
-		D8D62A7E18CE06C900FD3D7B /* AppledocSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AppledocSettings.plist; sourceTree = "<group>"; };
-		D8D62A8018CE06C900FD3D7B /* Programming Guide-template.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Programming Guide-template.markdown"; sourceTree = "<group>"; };
-		D8D62A8118CE06C900FD3D7B /* Setup Guide-template.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Setup Guide-template.markdown"; sourceTree = "<group>"; };
-		D8D62A8218CE06C900FD3D7B /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		D8D62A8318CE06C900FD3D7B /* Readme.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.markdown; sourceTree = "<group>"; };
+		D8D62A8018CE06C900FD3D7B /* Programming Guide-template.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Programming Guide-template.markdown"; path = "docs/Programming Guide-template.markdown"; sourceTree = SOURCE_ROOT; };
+		D8D62A8118CE06C900FD3D7B /* Setup Guide-template.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Setup Guide-template.markdown"; path = "docs/Setup Guide-template.markdown"; sourceTree = SOURCE_ROOT; };
+		D8D62A8F18CE072400FD3D7B /* AppledocSettings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppledocSettings.plist; sourceTree = SOURCE_ROOT; };
+		D8D62A9018CE072400FD3D7B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		D8D62A9118CE072400FD3D7B /* Readme.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.markdown; sourceTree = SOURCE_ROOT; };
+		D8D62A9618CE079600FD3D7B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Demo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		D8D62A9718CE079600FD3D7B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Demo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		D8D62A9818CE079600FD3D7B /* JOESlider-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "JOESlider-Info.plist"; path = "Demo/JOESlider-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D8D62A9918CE079600FD3D7B /* JOESlider-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "JOESlider-Prefix.pch"; path = "Demo/JOESlider-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		D8D62A9A18CE079600FD3D7B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Demo/main.m; sourceTree = SOURCE_ROOT; };
+		D8D62A9B18CE079600FD3D7B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Demo/ViewController.h; sourceTree = SOURCE_ROOT; };
+		D8D62A9C18CE079600FD3D7B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Demo/ViewController.m; sourceTree = SOURCE_ROOT; };
+		D8D62AA618CE081A00FD3D7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Demo/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		D8D62AA918CE082800FD3D7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Demo/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		D8D62AAC18CE083200FD3D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Demo/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		D8D62AFD18CE1EEC00FD3D7B /* JOESlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOESlider.h; sourceTree = "<group>"; };
+		D8D62AFE18CE1EEC00FD3D7B /* JOESlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOESlider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				D8D62A5218CE06C900FD3D7B /* JOESlider */,
+				D8D62A9518CE078000FD3D7B /* Demo */,
 				D8D62A7318CE06C900FD3D7B /* JOESliderTests */,
 				D8D62A7D18CE06C900FD3D7B /* Documentation */,
 				D8D62A4B18CE06C900FD3D7B /* Frameworks */,
@@ -134,27 +136,10 @@
 		D8D62A5218CE06C900FD3D7B /* JOESlider */ = {
 			isa = PBXGroup;
 			children = (
-				D8D62A5B18CE06C900FD3D7B /* AppDelegate.h */,
-				D8D62A5C18CE06C900FD3D7B /* AppDelegate.m */,
-				D8D62A5E18CE06C900FD3D7B /* Main.storyboard */,
-				D8D62A6118CE06C900FD3D7B /* ViewController.h */,
-				D8D62A6218CE06C900FD3D7B /* ViewController.m */,
-				D8D62A6418CE06C900FD3D7B /* .gitignore */,
-				D8D62A6618CE06C900FD3D7B /* Images.xcassets */,
-				D8D62A5318CE06C900FD3D7B /* Supporting Files */,
+				D8D62AFD18CE1EEC00FD3D7B /* JOESlider.h */,
+				D8D62AFE18CE1EEC00FD3D7B /* JOESlider.m */,
 			);
 			path = JOESlider;
-			sourceTree = "<group>";
-		};
-		D8D62A5318CE06C900FD3D7B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D8D62A5418CE06C900FD3D7B /* JOESlider-Info.plist */,
-				D8D62A5518CE06C900FD3D7B /* InfoPlist.strings */,
-				D8D62A5818CE06C900FD3D7B /* main.m */,
-				D8D62A5A18CE06C900FD3D7B /* JOESlider-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D8D62A7318CE06C900FD3D7B /* JOESliderTests */ = {
@@ -178,9 +163,9 @@
 		D8D62A7D18CE06C900FD3D7B /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
-				D8D62A7E18CE06C900FD3D7B /* AppledocSettings.plist */,
-				D8D62A8218CE06C900FD3D7B /* LICENSE */,
-				D8D62A8318CE06C900FD3D7B /* Readme.markdown */,
+				D8D62A8F18CE072400FD3D7B /* AppledocSettings.plist */,
+				D8D62A9018CE072400FD3D7B /* LICENSE */,
+				D8D62A9118CE072400FD3D7B /* Readme.markdown */,
 				D8D62A7F18CE06C900FD3D7B /* Programming Guides */,
 			);
 			path = Documentation;
@@ -193,6 +178,64 @@
 				D8D62A8118CE06C900FD3D7B /* Setup Guide-template.markdown */,
 			);
 			name = "Programming Guides";
+			sourceTree = "<group>";
+		};
+		D8D62A9518CE078000FD3D7B /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D8D62AA118CE07A000FD3D7B /* Application Delegate */,
+				D8D62AA318CE07B900FD3D7B /* View Controllers */,
+				D8D62AA418CE07DC00FD3D7B /* Storyboards */,
+				D8D62AA518CE07E400FD3D7B /* Resources */,
+				D8D62AA218CE07AD00FD3D7B /* Supporting Files */,
+			);
+			name = Demo;
+			path = JOESlider;
+			sourceTree = "<group>";
+		};
+		D8D62AA118CE07A000FD3D7B /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				D8D62A9618CE079600FD3D7B /* AppDelegate.h */,
+				D8D62A9718CE079600FD3D7B /* AppDelegate.m */,
+			);
+			name = "Application Delegate";
+			sourceTree = "<group>";
+		};
+		D8D62AA218CE07AD00FD3D7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8D62AA818CE082800FD3D7B /* InfoPlist.strings */,
+				D8D62A9818CE079600FD3D7B /* JOESlider-Info.plist */,
+				D8D62A9918CE079600FD3D7B /* JOESlider-Prefix.pch */,
+				D8D62A9A18CE079600FD3D7B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8D62AA318CE07B900FD3D7B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D8D62A9B18CE079600FD3D7B /* ViewController.h */,
+				D8D62A9C18CE079600FD3D7B /* ViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D8D62AA418CE07DC00FD3D7B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D8D62AAB18CE083200FD3D7B /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		D8D62AA518CE07E400FD3D7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8D62AA618CE081A00FD3D7B /* Images.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,10 +315,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8D62A5718CE06C900FD3D7B /* InfoPlist.strings in Resources */,
-				D8D62A6718CE06C900FD3D7B /* Images.xcassets in Resources */,
-				D8D62A6518CE06C900FD3D7B /* .gitignore in Resources */,
-				D8D62A6018CE06C900FD3D7B /* Main.storyboard in Resources */,
+				D8D62AA718CE081A00FD3D7B /* Images.xcassets in Resources */,
+				D8D62AAA18CE082800FD3D7B /* InfoPlist.strings in Resources */,
+				D8D62B0618CE20B200FD3D7B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +343,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/appledoc \\\n--output \"${BUILD_DIR}/Documentation/\" \\\n\"${PROJECT_DIR}/Documentation\" \\\n\"${PROJECT_DIR}\"\necho \"Documentation Output directory: ${BUILD_DIR}/Documentation/\"\ncd \"${BUILD_DIR}/Documentation/\"\ncp -fR \"publish/\" \"/Users/Joe/Work/iJoe.Co/Development/Library/${PROJECT_NAME}\"\ncd \"co.ijoe.${PROJECT_NAME}.docset/Contents/Resources/\"\ncp -fR \"Documents/\" \"/Users/Joe/Work/iJoe.Co/Development/Library/${PROJECT_NAME}\"\ncd \"/Users/Joe/Work/iJoe.Co/Development/Library/${PROJECT_NAME}\"\nopen -a Finder .";
+			shellScript = "/usr/local/bin/appledoc \\\n--output \"${BUILD_DIR}/Documentation/\" \\\n\"${PROJECT_DIR}/docs\" \\\n\"${PROJECT_DIR}\"\necho \"Documentation Output directory: ${BUILD_DIR}/Documentation/\"\n// USER CONFIG\nSOURCE_DIR=\"co.ijoe.${PROJECT_NAME}.docset/Contents/Resources/\"\nDESTINATION_DIR=\"/Users/Joe/Work/iJoe.Co/Development/Library/${PROJECT_NAME}\"\n// END USER CONFIG\ncd \"${BUILD_DIR}/Documentation/\"\nmkdir -p \"$DESTINATION_DIR\"\ncp -fR \"publish/\" \"$DESTINATION_DIR\"\ncd $SOURCE_DIR\ncp -fR \"Documents/\" \"$DESTINATION_DIR\"\ncd \"$DESTINATION_DIR\"\nopen -a Terminal .";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -310,9 +352,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8D62A6318CE06C900FD3D7B /* ViewController.m in Sources */,
-				D8D62A5D18CE06C900FD3D7B /* AppDelegate.m in Sources */,
-				D8D62A5918CE06C900FD3D7B /* main.m in Sources */,
+				D8D62AA018CE079600FD3D7B /* ViewController.m in Sources */,
+				D8D62AFF18CE1EEC00FD3D7B /* JOESlider.m in Sources */,
+				D8D62A9F18CE079600FD3D7B /* main.m in Sources */,
+				D8D62A9D18CE079600FD3D7B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,28 +378,28 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D8D62A5518CE06C900FD3D7B /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D8D62A5618CE06C900FD3D7B /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D8D62A5E18CE06C900FD3D7B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D8D62A5F18CE06C900FD3D7B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D8D62A7618CE06C900FD3D7B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D8D62A7718CE06C900FD3D7B /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8D62AA818CE082800FD3D7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8D62AA918CE082800FD3D7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8D62AAB18CE083200FD3D7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8D62AAC18CE083200FD3D7B /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -440,8 +483,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JOESlider/JOESlider-Prefix.pch";
-				INFOPLIST_FILE = "JOESlider/JOESlider-Info.plist";
+				GCC_PREFIX_HEADER = "Demo/JOESlider-Prefix.pch";
+				INFOPLIST_FILE = "Demo/JOESlider-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -453,8 +496,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JOESlider/JOESlider-Prefix.pch";
-				INFOPLIST_FILE = "JOESlider/JOESlider-Info.plist";
+				GCC_PREFIX_HEADER = "Demo/JOESlider-Prefix.pch";
+				INFOPLIST_FILE = "Demo/JOESlider-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
