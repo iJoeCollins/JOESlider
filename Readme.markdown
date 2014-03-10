@@ -28,7 +28,7 @@ Or just import the header files where needed.
 Usage
 -----
 
-Further details and examples are available in the [programming guide.](docs/Programming Guide.markdown)
+Further details and examples are available in the [programming guide.](http://developer.ijoe.co/library/JOESlider/docs/Programming%20Guide)
 
 Documentation
 -------------
