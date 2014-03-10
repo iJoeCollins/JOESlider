@@ -1,12 +1,13 @@
-JOESlider Programming Guide
-===================================
+Programming Guide
+-----------------
+
 Configure the slider using one of the included block methods. Most of the time
 you will probably want to use handleValueChanged:
 
 Basic examples below.
 
-JCSlider Configuration
-----------------------
+JOESlider Configuration
+-----------------------
 
 ```objc
 - (void)configureSlider
@@ -22,7 +23,7 @@ JCSlider Configuration
 }
 ```
 
-JCStopSlider Configuration w/ Stop Components
+JOEStopSlider Configuration w/ Stop Components
 ---------------------------------------------
 
 ```objc

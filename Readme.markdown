@@ -1,5 +1,5 @@
-JOESlider
-==================
+Abstract
+--------
 
 This is a collection of subclasses for UISlider, used to select a value from a continuous range of values. It makes use of blocks to respond to UIControlEvents.
  
@@ -7,8 +7,8 @@ At a Glance
 -----------
 Contained are several subclasses of UISlider
 
-- JCSlider - this is used as a basic slider and a base for more customized implementations
-- JCStopSlider - uses stops to mark option values the thumb control should "snap" to on touchUp
+- JOESlider - this is used as a basic slider and a base for more customized implementations
+- JOEStopSlider - uses stops to mark option values the thumb control should "snap" to on touchUp
 
 Setup
 -----
@@ -40,6 +40,6 @@ License
 
 It is open source and distributed under the MIT License (MIT). That means you have to mention Joseph Collins as the original author of this code and reproduce the LICENSE text inside your app.
 
-You can purchase a [Non-Attribution-License](mailto:joe@ijoe.co?subject=JOESlider Non-Attribution-License) for $100 USD, for not having to include the LICENSE text.
+You can purchase a <a href="mailto:joe@ijoe.co?subject=JOESlider%20Non-Attribution-License">Non-Attribution-License</a> for $100 USD, for not having to include the LICENSE text.
 
-I also accept sponsorship for any specific enhancements you may require. Please [contact me via email](mailto:joe@ijoe.co?subject=JOESlider Sponsorship) for inquiries.
+I also accept sponsorship for any specific enhancements you may require. Please <a href="mailto:joe@ijoe.co?subject=JOESlider%20Sponsorship">contact me via email</a> for inquiries.
