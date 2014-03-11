@@ -165,8 +165,8 @@
 			children = (
 				D8D62A8F18CE072400FD3D7B /* AppledocSettings.plist */,
 				D8D62A9018CE072400FD3D7B /* LICENSE */,
-				D8D62A9118CE072400FD3D7B /* Readme.markdown */,
 				D8D62A7F18CE06C900FD3D7B /* Programming Guides */,
+				D8D62A9118CE072400FD3D7B /* Readme.markdown */,
 			);
 			path = Documentation;
 			sourceTree = "<group>";
