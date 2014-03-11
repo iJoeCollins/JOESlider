@@ -9,7 +9,7 @@ Basic examples below.
 JOESlider Configuration
 -----------------------
 
-```objc
+```
 - (void)configureSlider
 {
     ViewController *__weak weakSelf = self;
@@ -26,7 +26,7 @@ JOESlider Configuration
 JOEStopSlider Configuration w/ Stop Components
 ---------------------------------------------
 
-```objc
+```
 - (void)configureStopSlider
 {
     self.stopSlider.stopComponents = @[@(0), @(20), @(40), @(60)];
